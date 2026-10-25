@@ -1,6 +1,10 @@
 [
   {
+    "name": "Akwam",
+    "url": "https://raw.githubusercontent.com/mehdikkoki-dot/T/main/akwam.js"
+  },
+  {
     "name": "Aflaam",
-    "url": "aflaam.js"
+    "url": "https://raw.githubusercontent.com/mehdikkoki-dot/T/main/aflaam.js"
   }
 ]
