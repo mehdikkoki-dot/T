@@ -1,3 +1,10 @@
 [
-  { "name": "blender-open-movies", "url": "blender-open-movies.js" }
+  {
+    "name": "blender-open-movies",
+    "url": "blender-open-movies.js"
+  },
+  {
+    "name": "Viu",
+    "url": "Viu.js"
+  }
 ]
