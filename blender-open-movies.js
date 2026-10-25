@@ -3,7 +3,7 @@ var BASE = "https://archive.org";
 function poster(id) { return BASE + "/services/img/" + id; }
 function query(q, rows) {
   var u = BASE + "/advancedsearch.php?q=" + encodeURIComponent(q) +
-    "&fl[]=identifier&fl[]=title&rows=" + rows + "&output=json&sort[]=downloads%20desc";
+    "&fl%5B%5D=identifier&fl%5B%5D=title&rows=" + rows + "&output=json&sort%5B%5D=downloads%20desc";
   var r = httpGet(u);
   if (!r) return [];
   try {
